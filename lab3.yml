@@ -1,0 +1,11 @@
+- name: Copy file with owner and permissions
+  hosts: remotehosts
+  become: true
+  tasks:
+    - name: Copy file with owner and permissions
+      ansible.builtin.copy:
+        src: /root/ansible_code/index.html
+        dest: /root/foo.conf/
+        owner: student
+        group: student
+        mode: '0644'
