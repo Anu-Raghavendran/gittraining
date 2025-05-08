@@ -1,26 +1,37 @@
 ---
-- hosts: remotehosts
+- name : Serach for file in localhost
+  hosts: all
   become: true
   vars_files:
     - vault.yml
   tasks:
-    - name: Install httpd
-      ansible.builtin.dnf:
-        name: httpd
-        state: present
-    - name: Try to copy index.html if it exists
+    - name: check file existence
+      delegate_to: localhost
+      ansible.builtin.stat:
+        path: /root/ansible_code/index.html
+      register: stat_output
+
+        #  - name: print exis msg
+        #debug:
+        #msg: "File exists"
+        #when: stat_output.stat.exists
+
+        #- name: print non exist msg
+        #debug:
+        # msg: "File not present"
+        #when: not stat_output.stat.exists
+
+- name: Try to copy index.html if it exists
+  hosts: remotehosts
+  become: true
+  vars_files:
+    - vault.yml
+  tasks:
+    - name: copy the file to remote hosts
       ansible.builtin.copy:
         src: index.html
         dest: /var/www/html/index.html
         owner: root
         group: root
         mode: '0644'
-      register: copy_result
-      ignore_errors: yes
-      failed_when: false
-      notify: Prompt user to place index.html
-  handlers:
-    - name: Prompt user to place index.html
-      ansible.builtin.debug:
-        msg: "index.html is missing. Please place it in the correct path on the Ansible controller."
-      when: copy_result is failed
+      when: stat_output.stat.exists
