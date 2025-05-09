@@ -1,6 +1,6 @@
 ---
 - name: Create directory and clone GIT repo
-  hosts: remotehosts
+  hosts: localhost
   become: true
   vars_files:
     - vault.yml
