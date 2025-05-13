@@ -1,0 +1,26 @@
+---
+- name: Merging two playbooks
+  hosts: remotehosts
+  become: true
+  vars_files:
+    - vault.yml
+  vars:
+    inv: /root/ansible_code/inventory.ini
+    lab1: /root/ansible_code/lab20.yml
+    lab2: /root/ansible_code/lab21.yml
+
+  tasks:
+    - name: call 1st playbook
+      shell: ansible-playbook -i {{inv}} {{lab1}} --ask-vault-pass
+      delegate_to: localhost
+      register: output
+
+    - name: call 2nd playbook
+      command: ansible-playbook -i {{inv}} {{lab2}} --ask-vault-pass
+      delegate_to: localhost
+      register: health_output
+      when: output.rc == 0
+
+    - name: display output
+      debug:
+        var: health_output.stdout_lines
