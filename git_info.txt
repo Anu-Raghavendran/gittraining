@@ -1,6 +1,5 @@
      git --version
      git config --global user.name "Anu Raghavendran"
-     git config --global user.email "Anu.raghavendran@tcs.com"
      git config --global --list
      git status
      git init .
