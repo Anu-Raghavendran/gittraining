@@ -1,0 +1,35 @@
+     git --version
+     git config --global user.name "Anu Raghavendran"
+     git config --global user.email "Anu.raghavendran@tcs.com"
+     git config --global --list
+     git status
+     git init .
+     git add .
+     git status
+     git commit -m "Initial setup Inventory"
+     git status 
+     git branch -M main
+     git remote add origin git@github.com:Anu-Raghavendran/gittraining.git
+     git push -u origin main 
+     cat .git/config
+     git config --global --list
+     git config --global user.email "anu.raghavendran@gm.com"
+     git config --global --list
+     git add lab.yml
+     git commit -m "Adding lab.yml"
+     git push origin main 
+
+if not able to push any code , follow belo steps 
+
+yum install git-filter-repo
+git filter-repo --path ssh/id_rsa --invert-paths 
+git filter-repo --path ssh/id_rsa --invert-paths --force
+git push origin main 
+pwd
+git push origin main -force
+git push origin main --force
+git remote -v
+git remote add origin git@github.com:Anu-Raghavendran/gittraining.git
+git push origin main
+
+in above example, not able to push boz of teh presence of ssh/id_rsa, eventhough moved teh ssh doirectory , error was still there. so, need to rewrite the git history using git filter
