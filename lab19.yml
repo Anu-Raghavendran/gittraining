@@ -1,0 +1,54 @@
+---
+- name: Install Doker on CentOS using Ansible
+  hosts:  all
+  become: true
+  gather_facts: true
+  vars_files:
+    - vault.yml
+
+  vars:
+    rhel_repo: https://download.docker.com/linux/rhel/docker-ce.repo
+    centos_repo: https://download.docker.com/linux/centos/docker-ce.repo
+    pkgs:
+      - docker-ce 
+      - docker-ce-cli 
+      - containerd.io 
+      - docker-buildx-plugin 
+      - docker-compose-plugin
+
+  tasks:
+    - name: Install dnf-plugins-core
+      dnf:
+        name: dnf-plugins-core
+        state: present
+
+    - name: Add Docker CE repository - Centos
+      get_url:
+        url: "{{centos_repo}}"
+        dest: /etc/yum.repos.d/
+      when: ansible_distribution == "CentOS"
+
+    - name: Add Docker CE repository - Redhat
+      get_url:
+        url: "{{rhel_repo}}"
+        dest: /etc/yum.repos.d/
+      when: ansible_distribution == "RedHat"
+
+    - name: Install Docker packages
+      dnf:
+        name: "{{item}}"
+        state: present
+      loop : "{{pkgs}}"
+
+    - name: Enable and start Docker service
+      systemd:
+        name: docker
+        enabled: true
+        state: started
+    
+    - name: Check docker version
+      command: docker --version
+      register: docker_version
+    - name: Display message
+      debug:
+        msg: "Docker is installed and the current dcoker version is {{docker_version.stdout}}"
