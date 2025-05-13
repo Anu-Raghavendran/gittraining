@@ -1,0 +1,18 @@
+ 502  git init
+ 503  ls -ltrha
+ 504  git add .
+ 505  git commit -m "Role"
+ 506  git remote add origin git@github.com:Anu-Raghavendran/rolerepository.git
+ 507  git branch -M main
+ 508  git push -u origin main
+ 509  ansible-galaxy import Anu-Raghavandran rolerepository --token db76585ab814c3ff952a1c2b6e2a
+e50f61b49bb
+ 510  ansible-galaxy import Anu-Raghavendran rolerepository --token db76585ab814c3ff952a1c2b6e2a
+e50f61b49bb
+ 511  cd ..
+ 512  ansible-galaxy role install vivekanand1985.myrole
+ 513  cp -p lab16.yml lab17_other_role_testing.yml
+ 514  vi lab17_other_role_testing.yml 
+ 515  ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+ 516  cd /root/.ansible/roles/vivekanand1985.myrole
+
