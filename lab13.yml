@@ -1,5 +1,5 @@
 ---
-- name: Create directory and clone GIT repo
+- name: Create directory and clone GIT repo (Cloned Amit repor)
   hosts: localhost
   become: true
   vars_files:
