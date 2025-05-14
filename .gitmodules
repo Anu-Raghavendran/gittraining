@@ -1,0 +1,3 @@
+[submodule "mariadb"]
+	path = mariadb
+	url = git@github.com:Anu-Raghavendran/mariadb.git
