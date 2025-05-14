@@ -1,0 +1,7 @@
+092  git rm --cached mariadb/
+ 1093  git submodule add git@github.com:Anu-Raghavendran/mariadb.git mariadb
+ 1094  git rm --cached mariadb/ --force
+ 1095  git submodule add git@github.com:Anu-Raghavendran/mariadb.git mariadb
+ 1096  git commit -m "adding git repo in another repo"
+ 1097  git push origin main 
+
