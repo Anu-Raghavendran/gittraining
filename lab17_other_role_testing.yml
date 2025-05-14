@@ -5,3 +5,4 @@
     - vault.yml
   roles:
     - vivekanand1985.myrole
+    - Anu-Raghavendran.dockerrole
