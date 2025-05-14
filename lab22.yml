@@ -1,7 +1,8 @@
 ---
-- hosts: all
+- hosts: remotehosts
   become: true
   vars_files:
       - vault.yml
   roles:
-   - dockerrole
+  #   - dockerrole
+      - mariadb
