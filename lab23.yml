@@ -30,7 +30,7 @@
         name: mariadb
         state: started
         enabled: true
-      changed_when: true
+        changed_when: true
       notify : Maria DB started
 
     - name: Create .m.cnf
