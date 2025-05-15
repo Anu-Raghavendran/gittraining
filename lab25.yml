@@ -1,0 +1,18 @@
+---
+- name: Install PostgreSQL on remote host
+  hosts: remotehosts
+  become: yes
+  vars_files:
+    - vault.yml
+  tasks:
+    - name: Ensure PostgreSQL is installed
+      community.postgresql.postgresql_package:
+        name: postgresql
+        state: present
+
+    - name: Ensure PostgreSQL service is running
+      community.postgresql.postgresql_service:
+        name: postgresql
+        state: started
+        enabled: yes
+
