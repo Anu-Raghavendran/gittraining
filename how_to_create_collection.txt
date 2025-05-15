@@ -1,0 +1,13 @@
+1000  ansible-galaxy collection install community.docker
+ 1001  cd /root/.ansible/collections/ansible_collections/community/library_inventory_filtering_v1
+ 1002  ls -ltrha
+ 1003  cd tests
+ 1004  ls -ltrh
+ 1005  cd ..
+ 1006  cd /root/ansible_code/\
+ 1007  cd /root/ansible_code/
+ 1008  ls -ltrha
+ 1009  vi lab24.yml 
+ 1010  ansible-playbook -i inventory.ini lab24.yml --ask-vault-pass
+ 1011  history 
+
