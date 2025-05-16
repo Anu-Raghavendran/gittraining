@@ -1,0 +1,22 @@
+---
+- name: Ansible facts and hostname demo
+  hosts: all
+  gather_facts: true
+  vars_files:
+    - vault.yml
+  tasks:
+    - name: Show OS distribution
+      debug:
+        msg: Distribution is {{ ansible_facts['distribution'] }}
+    - name: Show IP address of default interface
+      debug:
+        msg: Default IPv4 address is {{ ansible_facts['default_ipv4']['address'] }}
+    - name: Print hostname using shell command
+      command: hostname
+      register: hostname_result
+    - name: Show hostname from shell command
+      debug:
+        msg: Hostname (shell) is {{ hostname_result.stdout }}
+    - name: Print hostname using external Python script
+      script: get_hostname.py
+
