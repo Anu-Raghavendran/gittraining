@@ -1,0 +1,1000 @@
+git push origin main 
+git status 
+git add test/
+git commit -m "roles directory"
+git push origin main 
+git status 
+yum update apache
+yum install apache
+yum install apache2
+clear
+history 
+ansible-playbook -i inventory.ini lab16.yml --ask-vault-pass -v
+cd test
+ls -l
+cd tasks 
+ls -l 
+cat main.yml 
+cd 
+cd ansible_code/
+cat lab16.yml 
+ansible-vault edit vault.yml
+cd test/
+git init
+ls -ltrha
+git add .
+git commit "Role"
+git commit -m "Role"
+git remote add origin https://github.com/Anu-Raghavendran/rolerepository.git
+git branch -M main
+git push -u origin main
+=l s-ltrh 
+ls -ltrh 
+ls -ltrha
+git remote add origin https://github.com/Anu-Raghavendran/rolerepository.git
+git branch -M main
+git push -u origin main
+history | grep -i ssh
+git remote add origin https://github.com/Anu-Raghavendran/rolerepository.git
+git push -u origin main
+git remote add origin git@github.com:Anu-Raghavendran/rolerepository.git
+ls -ltrha
+rm -rf .git 
+ls -ltrha
+history 
+git init
+ls -ltrha
+git add .
+git commit -m "Role"
+git remote add origin git@github.com:Anu-Raghavendran/rolerepository.git
+git branch -M main
+git push -u origin main
+ansible-galaxy import Anu-Raghavandran rolerepository --token db76585ab814c3ff952a1c2b6e2a8e50f61b49bb
+ansible-galaxy import Anu-Raghavendran rolerepository --token db76585ab814c3ff952a1c2b6e2a8e50f61b49bb
+cd ..
+ansible-galaxy role install vivekanand1985.myrole
+cp -p lab16.yml lab17_other_role_testing.yml
+vi lab17_other_role_testing.yml 
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+cd /root/.ansible/roles/vivekanand1985.myrole
+l s-ltrh 
+ls -ltrh 
+cd tasks
+ls -ltrh 
+cat main.yml 
+cd ..
+cd /root/ansible_code/
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass -v
+yum remove -y httpd
+ps -ef | grep -i 5673
+kill -9 5673
+ps -ef | grep -i 5673
+yum remove -y httpd
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass -v
+ansible-playbook -i inventory.ini lab16.yml --ask-vault-pass -v
+history 
+clear
+vi lab18.yml
+cat lab18.yml 
+cat lab15.yml 
+clea
+cat lab14.yml 
+vi lab18.yml 
+ansoble-playbook -i inventory.ini lab18.yml --ask-vault-pass
+ansible-playbook -i inventory.ini lab18.yml --ask-vault-pass
+vi lab18.yml 
+ansible-playbook -i inventory.ini lab18.yml --ask-vault-pass
+vi lab18.yml 
+ansible-playbook -i inventory.ini lab18.yml --ask-vault-pass
+cat lab18.yml 
+docker --version
+cd /etc/yum.repos.d
+ls -ltrh a
+ls -ltrha
+rm -rf docker-ce.repo 
+cd ..
+cd /root/ansible_code/
+yum remove docker -y
+docker --version
+yum remove docker-ce docker-ce-cli containerd.io -y 
+yum remove docker-buildx-plugin docker-compose-plugin
+docker --version
+ansible-playbook -i inventory.ini lab18.yml --ask-vault-pass
+history 
+y https://download.docker.com/linux/centos/docker-ce.repo
+yum remove docker-ce docker-ce-cli containerd.io -y
+yum remove docker-buildx-plugin docker-compose-plugin
+docker --version 
+ansible-playbook -i inventory.ini lab18.yml --ask-vault-pass -v 
+docker --version 
+git add lab18.yml 
+git commit -m "Install Docker"
+git push origin main 
+git stattus 
+git status
+git add lab17_other_role_testing.yml 
+git commit -m "import others role from Ansible Galaxy"
+git push commit origin
+git push origin main
+ls -ltrha
+mv ssh /tmp/
+git push origin main
+ls -ltrha
+'
+
+
+git push origin main
+clear
+cp -p lab18.yml lab19.yml
+vi lab19.yml 
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass -v 
+cat /etc/redhat-release 
+uname -a
+ansible -m setup 
+ansible -m setup all
+ansible -m setup all filter = "ansible_os_family"
+ansible -m setup all filter == "ansible_os_family"
+ansible -m setup all 'filter=ansible_os_family'
+ansible -m setup all -a 'filter=ansible_os_family'
+vi lab19.yml 
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass -v 
+vi lab19.yml 
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass -v 
+vi lab19.yml 
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass -v 
+ansible -m setup all -a 'filter=ansible_os_family'
+vi lab19.yml 
+ansible -m setup all -a 'filter=ansible_os_family'
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass -v 
+cat lab19.yml 
+vi lab19.yml 
+cat lab14.yml 
+cat lab1b.yml 
+cat lab15.yml 
+cat lab14.yml 
+ls -ltrh 
+ls -ltrha
+git push origin main 
+exit
+cd ansible_code/
+ls -ltrha
+cd .git
+ls -ltrha
+cd ..
+git push orgin main 
+cd ..
+cd ansible_code/\
+cd ansible_code/
+git push orgin main 
+ls -ltrha
+git push origin main 
+cd ansible_code/l
+cd ansible_code/
+ls ltrha
+ls -ltrha
+git log 
+clear
+df -hT
+pwd
+df -h .
+cd ..
+pwd
+mkdir new_ansible
+cp -p /root/ansible_code/* new_ansible/
+cp -pr /root/ansible_code/* new_ansible/
+rm -rf new_ansible/
+mkdir new_ansiblecode
+cp -pr /root/ansible_code/ new_ansiblecode/
+cd new_ansiblecode/
+ls -lrtha
+cd ansible_code/
+ls -ltrha
+cd  sample_dir/
+ls -ltrha
+cd ..
+rm -rf .git
+git push origin main 
+history | grep -i git 
+cd /root/ansible_code/
+ls -ltrha
+git add -u 
+git commit -m "removed ssh directory"
+git push origin main 
+git rm --cached ssh/id_rsa
+git rm --cached ssh/
+git rm --cached ssh
+git push origin main --force
+yum install git-filter-repo
+git filter-repo --path ssh/id_rsa --invert-paths 
+git filter-repo --path ssh/id_rsa --invert-paths --force
+git push origin main 
+pwd
+git push origin main -force
+git push origin main --force
+git remote -v
+git remote add origin git@github.com:Anu-Raghavendran/gittraining.git
+git push origin main
+git stattus 
+git status
+git log
+history 
+vi git_info.txt
+history 
+cat /root/.ssh/id_rsa.pub
+ls -ltrh 
+git add git_info.txt 
+git commit -m "Git info"
+git push origin main 
+vi git_info.txt 
+git commit -m "Modified Git info"
+git add git_info.txt 
+git commit -m "Modified Git info"
+git push origin main 
+vi lab19.yml 
+vi lab18.yml 
+vi lab19.yml 
+dzdo vi lab19.yml 
+vi lab19.yml 
+cat lab19.yml 
+ansible all -m setup -a 'filter=ansible_distribution'
+cd /etc/yum.repos.d
+ls -ltrha
+rm -rf docker-ce.repo 
+cd ..
+history | grep -i yum repve 
+history | grep -i yum remoe 
+history | grep -i yum remoe
+history | grep -i remo
+yum remove docker-ce docker-ce-cli containerd.io -y
+um remove docker-buildx-plugin docker-compose-plugin
+yum remove docker-buildx-plugin docker-compose-plugin
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass
+cd ..
+cd /root/ansible_code/
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass
+vi lab19.yml 
+ansible-playbook -i inventory.ini lab19.yml --ask-vault-pass
+git status
+git add lab19.yml 
+git commit -m "my version of docker installation"
+git push origin main 
+vi lab20.yml
+vi lab21.yml
+cat lab21.yml
+ansible-playbook -i inventory.ini lab21.yml --ask-vault-pass
+vi lab21.yml 
+vi lab20.yml 
+ansible-playbook -i inventory.ini lab21.yml --ask-vault-pass
+vi lab21.yml 
+vi lab20.yml 
+ansible-playbook -i inventory.ini lab21.yml --ask-vault-pass
+vi lab20_21.yml
+cat lab20_21.yml 
+cat lab20.yml 
+q!
+vi lab20_21.yml 
+q!
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass
+pwd
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+ansible-playbook -i inventory.ini lab21.yml --ask-vault-pass -v
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+clear
+vi lab20_21.yml 
+ansible-playbook -i inventory.ini lab20_21.yml --ask-vault-pass -v
+cat lab20_21.yml 
+cat inventory.ini 
+history 
+vi role_publish.txt
+git add role_publish.txt 
+git commit -m "How to publish role"
+git status 
+rm -rf 1
+git add lab20.yml lab21.yml lab20_21.yml 
+git commit -m "Docker installation, healthcheck and display both in 1 playbook"
+ansible push origin main 
+git  push origin main 
+ansible-galaxy role init dockerrole
+cd dockerrole/
+ls -ltrha
+tcd tasks 
+cd tasks 
+ls -ltrh 
+cat main.yml 
+vi main.yml 
+dzdo cat /root/ansible_code/lab20.yml 
+ cat /root/ansible_code/lab20.yml 
+vi docker-install.yaml
+cat docker-install.yaml 
+vi docker-install.yaml 
+ cat /root/ansible_code/lab21.yml 
+vi get_docker_status.yml
+cd ..
+cd defaults/
+ls
+cat main.yml 
+vi main.yml 
+cd ..
+ls -ltrh 
+cd vars/
+ls  -ltrh 
+dzdo cat /root/ansible_code/lab20.yml 
+ cat /root/ansible_code/lab20.yml 
+vi main.yml 
+cd ..
+cd handlers/
+vi main.yml 
+cd ..
+cd meta
+vi main.yml 
+ cat /root/ansible_code/lab20.yml 
+cd ..
+cd tasks
+ls -l
+vi docker-install.yaml 
+> docker-install.yaml 
+vi docker-install.yaml 
+cat main.yml 
+mv docker-install.yaml docker_install.yml
+cd
+cd /root/ansible_code/
+ls -ltrha
+dzdo cat lab16.yml 
+cat lab16.yml 
+cp -p lab16.yml lab22.yml
+vi lab22.yml 
+cd dockerrole/
+cd tasks 
+vi main.yml 
+vi docker_install.yml 
+cd ..
+ansible-playbook -i inventory.ini lab22.yml --ask-vault-pass
+cd ..
+ansible-playbook -i inventory.ini lab22.yml --ask-vault-pass
+cd dockerrole/
+cd handlers/
+cat main.yml 
+vi main.yml 
+cd ..
+ansible-playbook -i inventory.ini lab22.yml --ask-vault-pass
+git remote add origin git@github.com:Anu-Raghavendran/dockerrole.git
+cd dockerrole/
+git remote add origin git@github.com:Anu-Raghavendran/dockerrole.git
+cd ..
+cat role_publish.txt 
+cd dockerrole/
+git init 
+git add .
+git commit -m "dockerrole"
+git remote add origin git@github.com:Anu-Raghavendran/dockerrole.git
+git branch -M main
+git push -u origin main
+ansible-galaxy import Anu-Raghavendran dockerrole --token e0a5076193f966319d1923755a313eafbb323346
+vi meta/main.yml 
+git add .
+git commit -m "modified dockerrole"
+git push origin main 
+ansible-galaxy import Anu-Raghavendran dockerrole --token e0a5076193f966319d1923755a313eafbb323346
+vi meta/main.yml 
+cd meta/
+>main.yml 
+vi main.yml 
+git add .
+git commit -m "modified docker"
+git push origin main 
+cd ..
+ansible-galaxy import Anu-Raghavendran dockerrole --token e0a5076193f966319d1923755a313eafbb323346
+ansible-galaxy role list
+ls -ltrha
+cd ..
+ls -ltrha
+vi lab17_other_role_testing.yml 
+vi /root/.ansible/roles
+ansible-galaxy role install Anu-Raghavendran.dockerrole
+vi lab17_other_role_testing.yml 
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+cd dockerrole/
+ls -ltrh 
+cd tasks
+cat main.yml 
+history 
+git status 
+cd ansible_code/
+git status 
+git add dockerrole/
+git add lab22.yml 
+cat lab22.yml 
+git commit -m "Test dockerrole"
+git push origin main 
+git status 
+git add dockerrole
+git commit -m "docker directory"
+git add lab17_other_role_testing.yml 
+git commit -m "test my and other roles"
+git push origin main 
+history | grep -i amit
+history 
+vi lab13.yml 
+git add lab13.yml 
+git commit -m "fork and clone repo from Github"
+git push orgin main 
+git status
+git push origin main 
+ls -ltrha
+cat role_publish.txt 
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+cat lab223
+cat lab23.yml 
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass -vv
+git add lab23.yml 
+git commit -m "Maria DB installation"
+git push origin main 
+git stattus 
+git status
+rm -rf 1
+git status
+cd dockerrole/
+ls
+cd  tasks 
+ls 
+cat docker_install.yml 
+ls
+cat get_docker_status.yml 
+ls -ltrha
+cd 
+cd /root/ansible_code/
+ls -ltrha
+cat role_publish.txt 
+history 
+history | grep init
+ansible-galaxy role init mariadb
+cd mariadb/
+ls -ltrh 
+cd vars/
+vi main.yml 
+cd ..
+cd tasks
+vi main.yml 
+cat main.yml 
+>main.yml 
+vi main.yml 
+cd ..
+cd handlers/
+vi main.yml 
+cd
+cd /root/ansible_code/
+cd mariadb/
+cd meta
+vi main.yml 
+cd ..
+cat lab17_other_role_testing.yml 
+vi lab17_other_role_testing.yml 
+history 
+cat lab22.yml 
+cat lab17_other_role_testing.yml 
+vi lab22.yml 
+ansible-playbook -i inventory.ini lab22.yml --ask-vault-pass
+vi lab22.yml 
+ansible-playbook -i inventory.ini lab22.yml --ask-vault-pass
+cat lab23.yml 
+vi lab23.yml 
+ansible-playbook -i inventory.ini lab23.yml --ask-vault-pass
+vi lab23.yml 
+cd mariadb/
+git int
+git int .
+git init 
+git add .
+git commit -m "Maria DB role"
+git push origin main 
+git add remote git@github.com:Anu-Raghavendran/gittraining.git
+cat /root/ansible_code/role_publish.txt 
+git remote add origin git@github.com:Anu-Raghavendran/gittraining.git
+git branch -M main 
+git push -u origin main 
+cd ..
+git status 
+git add lab23.yml 
+git commit -m  "Maria DB installation "
+git push origin main 
+git pull origin   ain --rebase
+git pull origin   main --rebase
+cat alb22
+cat lab22.yml 
+history | grep lab22.yml 
+history 
+git add lab22.yml 
+git commit -m "Test maria DB role"
+git pull origin   main --rebase
+ls -ltrha
+gist status 
+git status
+git add mariadb/
+git commit -m "mariadb role directory"
+git push origin main 
+cd mar
+cd mariadb/
+ls -l 
+git push origin main 
+cd .
+cd ..
+ansible-galaxy role install bsmeding.docker
+cd /root/.ansible/roles/bsmeding.docker
+ls -ltrha
+cat requirements.yml 
+cd ..
+cd  tasks
+cd  bsmeding.docker/
+cd tasks
+ls -l 
+cat main.yml 
+cd
+cd /root/ansible_code/
+vi lab22.yml 
+vi lab17_other_role_testing.yml 
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+cd /root/.ansible/roles/bsmeding.docker/tasks/
+ls -l
+cat *.yml | grep -i apply
+cat main.yml | grep -i apply
+cat docker-users.yml | grep -i user
+cat docker-users.yml 
+history | grep -iinit
+history | grep -i init
+histoy 
+.history
+history
+cd /root/ansible_code/
+l s-ltrh 
+ls -ltrha
+git stattus 
+git status
+git add mariadb/
+git commit -m "mariadb directory"
+git add lab17_other_role_testing.yml 
+git commit -m "mariadb directory"
+git push origin main 
+git add mariadb/
+git commit -m "maridb "
+cd mariadb/
+vi handlers/main.yml 
+cd ..
+ls -l 
+git add mariadb/
+git commit -m "maridb "
+git add mariadb/*
+cd mariadb/
+git add .
+git commit -m "modified mariadb"
+cd ..
+git add mariadb/
+git commit -m "maridb "
+git push origin main 
+cd test/
+ls -ltrha
+history 
+cd ..
+l s-ltrh
+ls -ltrha
+cd mariadb/
+git remote add origin git@github.com:Anu-Raghavendran/mariadb.git
+git branch -M main
+git push -u origin main
+git remove origin main 
+git remote remove origin
+git remote add origin git@github.com:Anu-Raghavendran/mariadb.git
+git branch -M main
+git push -u origin main
+cd ..
+git add mariadb/
+git commit -m "added mariab in separte repo"
+git push origin main 
+mkdir sample
+cd sample
+vi txt1
+touh txt1 txt2 txt3 
+touch txt1 txt2 txt3 
+mkdir dir1 dir2
+cd ..
+git add sample/
+git commit -m "adding sample dir"
+git push origin main 
+git rm --cached mariadb
+ansible-galaxy role init sample
+ansible-galaxy role init samplerole
+git add samplerole/
+git commit -m "samplerole"
+git push origin main 
+git add mariadb/
+git rm --cached mariadb/
+git submodule add git@github.com:Anu-Raghavendran/mariadb.git mariadb
+git rm --cached mariadb/ --force
+git submodule add git@github.com:Anu-Raghavendran/mariadb.git mariadb
+git commit -m "adding git repo in another repo"
+git push origin main 
+history 
+vi how_to_add_another_repo_in_current_repo.txzt
+mv how_to_add_another_repo_in_current_repo.txzt how_to_add_another_repo_in_current_repo.txt
+git add how_to_add_another_repo_in_current_repo.txt 
+git commit -m "adding another repo folders here"
+git push origin main 
+\
+exit
+cat lab23
+cd ansible_code/
+cat lab23.yml 
+clear
+ls -lrth
+clear
+historyt 
+history
+history 
+ansible-galaxy role init patching
+cd patching/
+ls -ltrha
+cd ..
+cd /root/ansible_code/dockerrole/
+ls -ltrha
+cd tasks/
+ls -ltrh 
+cat docker_install.yml 
+ls -l
+cat get_docker_status.yml 
+cat main.yml 
+cd ..
+cd handlers/
+ls -ltrha
+cat main.yml 
+cd ..
+cd vars/
+ls -l
+cat main.yml 
+cd ..
+cd .
+cd ..
+cat lab23.yml 
+ls -ltrh 
+cat git_info.txt 
+ls -ltrh 
+cd  samplerole/
+ls -ltrha
+git init .
+ls -ltrha
+git add .
+git commit -m "adding sample"
+git remote add origin git@github.com:Anu-Raghavendran/KTrepo.git
+git branch -M main
+git push -u origin main 
+cd ..
+touch abc
+git status
+git add abc
+git commit -m "abc"
+git push origin main 
+cd  samplerole/
+cd tasks/
+tocuh sample.yml
+touch sample.yml
+cd ..
+cd sample
+cd ..
+cd samplerole/
+git status
+git add .
+git commit -m "sample.yml"
+git push origin main 
+history 
+clear
+cd .
+cd ..
+ls -ltrha
+cat git_info.txt 
+history | grep -i id_rsa
+cat /root/.ssh/id_rsa.pub
+clear
+cat lab22.yml 
+cat lab23.yml 
+history 
+cd  mariadb/
+ls -ltrha
+cd  tassk
+cd tasks/
+ls -ltrha
+cat main.yml 
+pwd
+cd ..
+cd vars/
+cat main.yml 
+cd ..
+cd handlers/
+cat main.yml 
+cd ..
+cd meta/
+ls -ltrha
+cat main.yml 
+cd ..
+cat lab23.yml 
+cat lab22.yml 
+history | grep-i mariadb
+history | grep -i mariadb
+history | grep -i lab22.yml 
+cat lab22.yml 
+cat inventory.ini 
+ansible-galaxy role install abhaykumar0607.dokerRole
+cd root/.ansible/roles/abhaykumar0607.dokerRole
+cd /root/.ansible/roles/abhaykumar0607.dokerRole
+ls -lrhta
+cd /root/ansible_code/
+vi lab17_other_role_testing.yml 
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml -ask-vault-pass
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+vi lab17_other_role_testing.yml 
+ansible-playbook -i inventory.ini lab17_other_role_testing.yml --ask-vault-pass
+ls -ltrha
+cat role_publish.txt 
+ls -ltrh
+cd samplerole/
+ls -ltrha
+git status
+cd  tasks/
+ls -l
+cat /root/ansible_code/git_info.txt
+cat /root/ansible_code/role_publish.txt 
+ansible-galaxy import Anu-Raghavandran KTrepo --token 29acfe183789c6caebae5c506312c2c5890e265f
+cd ..
+cat how_to_add_another_repo_in_current_repo.txt 
+ls -ltrha
+ls -ltrha *txt
+cat lab13.yml 
+cd ansible_code/
+ansible-galaxy collection install community.docker
+cd /root/.ansible/collections/ansible_collections/community/library_inventory_filtering_v1
+ls -ltrha
+cd tests
+ls -ltrh
+cd ..
+cd /root/ansible_code/\
+cd /root/ansible_code/
+ls -ltrha
+vi lab24.yml 
+ansible-playbook -i inventory.ini lab24.yml --ask-vault-pass
+history 
+vi how_to_create_collection.txt
+git add lab24.yml how_to_create_collection.txt 
+git commit -m "collection"
+git puh origin main 
+git push origin main 
+ansible-galaxy collection install community.postgresql
+cat lab22.yml 
+cat lab23.yml 
+cp -p lab23.yml lab25.yml
+vi lab25.yml 
+docker --version
+ls -ltrha
+vi lab24.yml 
+vi lab25.yml 
+> lab25.yml 
+vi lab25.yml 
+cat lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+>lab25.yml 
+vi lab25.yml 
+cat lab25.yml 
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+clear
+ls
+vi lab25.yml 
+> lab25.yml 
+vi lab25.yml 
+cat lab25.yml 
+cat lab24.yml 
+pwd
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+vi lab26.yml
+ansible-playbook -i inventory.ini lab26.yml --ask-vault-pass
+vi lab25.yml 
+> lab25.yml 
+vi lab25.yml 
+ansible-playbook -i inventory.ini lab25.yml --ask-vault-pass
+cat lab24.yml 
+ansible-inventory --list --inventory inventory.ini
+ansible-inventory --inventory inventory.ini --graph
+ansible-doc apt
+ansible-inventory --list --inventory inventory.iniansible-doc aptansib;eansansiblansibjj
+cd ansible_code/
+ansible-doc apt
+ansible-doc yum
+ansible-doc -l
+ansible-config dump -only-changed
+ansible-config dump --only-changed
+ans
+aq
+ansexit
+exit
+cd ansible_code/
+ansible-console -i inventory.ini
+ansible-console -i inventory.ini --extra-vars "@vault.yml" --ask-vault-pass
+ansible remotehosts -i inventory.ini -m yum -a "name=httpd state=present" -b --extra-vrs "@vault.yml" --ask-vault-pass
+ansible remotehosts -i inventory.ini -m yum -a "name=httpd state=present" -b --extra-vars "@vault.yml" --ask-vault-pass
+ansible remotehosts -i inventory.ini -m yum -a "name=mariadb state=started enabled=yes" -b --extra-vars "@vault.yml" --ask-vault-pass
+ansible all -i inventory.ini -a "iptables -F" --extra-vars "@vault.yaml"  --ask-vault-pass
+ansible all -i inventory.ini -a "iptables -F" --extra-vars "@vault.yml"  --ask-vault-pass
+ansible all -i inventory.ini -a "iptables -A INPUT -s 192.168.60.0/24 -p tcp -m tcp --dport 3306 -j ACCEPT" --extra-vars "@vault.yml"  --ask-vault-pass
+ansible remotes -i inventory.ini -a "service ntpd status" --extra-vars "@vault.yml"  --ask-vault-pass
+ansible remotehosts-i inventory.ini -a "service ntpd status" --extra-vars "@vault.yml"  --ask-vault-pass
+ansible remotehosts -i inventory.ini -a "service ntpd status" --extra-vars "@vault.yml"  --ask-vault-pass
+ansible remotehosts -m copy -a "src=/etc/hosts dest=/tmp/hosts" --extra-vars "@vault.yml" --ask-vault-pass
+cat /etc/hosts 
+history | grep -i community
+mkdir files
+cd files
+vi index.html
+vi deploy_website.yml
+> deploy_website.yml 
+vi deploy_website.yml 
+cat deploy_website.yml 
+ls -ltrh 
+cp -p deploy_website.yml /root/ansible_code/
+rm -rf deploy_website.yml 
+cd ..
+ansible-playbook -i inventory.ini deploy_website.yml --ask-vault-pass
+cat deploy_website.yml 
+gist status 
+git status
+rm -rf 1
+mv deploy_website.yml lab27_deploy_website.yml
+git add lab27_deploy_website.yml 
+git commit -m "Deploy website via docker image"
+cat lab26.yml 
+giot add lab25.yml lab26.yml 
+git add lab25.yml lab26.yml 
+git commit -m "Postgresql through ansible collectionrough version"
+git status 
+git add files/
+git commit -m "File used to deploy website "
+rm -rf samplerole/*
+git status 
+git push origin main 
+git status 
+git add -u 
+git commit -m "Updated lab17_other_role_testing.yml and removed samplerole files"
+git push origin main 
+git status 
+ls -ltrh 
+rm -rf samplerole/
+git status 
+rm -rf abc 
+git status 
+ls -ltrha
+cat .bash_history 
+exit
+mkdir -p files/certs
+cd ansible_code/
+mkdir -p files/certs
+openssl req -x509 -nodes -days 365 -newkey rsa:2048     -keyout files/certs/nginx.key \
+         -out files/certs/nginx.crt \
+         -subj "/C=US/ST=State/L=City/O=Organization/OU=Department/CN=localhost
+
+q
+cat files/nginx.conf
+cd files
+vi nginx.conf
+cd ..
+ls -ltrha
+vi lab28.yml
+ansible-playbook -i inventory.ini lab28.yml --ask-vault-pass
+cd files
+ls -ltrha
+ssh student@10.0.16.11
+cd ..
+ls -ltrha
+git add files lab28.yml 
+git commit -m "Jinja2"
+git push origin main 
+mkdir templates
+vi templates/sudoers.j2
+vi lab29\.yml
+vi lab29.yml
+cat J2
+cat templates/sudoers.j2 
+cat lab29.yml 
+ansible-playbook -i inventory.ini lab29.yml --ask-vault-pass
+cat /etc/sudoers
+cp -p /etc/sudoers /etc/sudoers.bkp.0516
+ls -ltrh /etc/sudo*
+ansible-playbook -i localhost lab29.yml --ask-vault-pass
+cd /root/.ansible
+ls -ltrha
+cd collections/
+ls -ltrha
+cd ansible_collections/
+ls -ltrha
+ansible-galaxy collection init my_namespace.centos_hardening
+cd  my_namespace/
+cd centos_hardening/
+ls -ltrha
+cd roles
+ls -ltrh
+ls -ltrha
+cd ..
+vi roles/hardening/tasks/main.yml`
+vi roles/hardening/tasks/main.yml
+cd roles/
+ls -l
+mkdir hardening
+cd hardening/
+mkdir tasks 
+vi main.yml
+mv main.yml tasks/
+ls -ltrh
+mkdir defaults
+cd defaults/
+vi main.yml
+cd ..
+mkdir handlers
+cd handlers/
+vi main.yml
+cd 
+cd /root/ansible_code/
+vi get_hostname.py
+chmod =x get_hostname.py 
+ls -ld get_hostname.py 
+chmod 755 get_hostname.py 
+ls -ld get_hostname.py 
+vi lab20.yml
+vi lab30.yml
+cat lab30.yml 
+ansible-playbook -i inventory.ini lab30.yml 
+ansible-playbook -i inventory.ini lab30.yml --ask-vault-pass
+vi lab30.yml
+ansible-playbook -i inventory.ini lab30.yml --ask-vault-pass
+git stattus 
+git status 
+git add lab30.yml get_hostname.py 
+git commit -m "display hostname with python module"
+git add lab29.yml 
+git commit -m "Ansible collection"
+git add templates/
+git commit -m "Jinja 2 files"
+git push origin main 
+git status
+ls -l -ltrha
+su - root
+exi
+exit
